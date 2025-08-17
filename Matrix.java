@@ -3,7 +3,6 @@ import java.util.Random;
 public class Matrix {
     int n;
     int[][] matrixA, matrixB;
-
     public Matrix(int n) {
         this.n = n;
         matrixA = new int[n][n];
